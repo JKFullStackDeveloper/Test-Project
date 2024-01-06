@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+/* Style for Header */
+
+/* .............................................................. */
+/* style for navbar */
+
+.header-logo {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+
+}
+
+.navbar {
+    position: absolute;
+    height: 100px;
+    width: 70%;
+    border-bottom: 1px solid #EEC244;
+    left: 16rem;
+}
+
+.nav-logo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 10px;
+}
+
+.nav-logo img {
+    height: 5rem;
+    width: 6rem;
+}
+
+.nav-list {
+    position: absolute;
+    width: 500px;
+    left: calc(50% - 545px/2 - 54.16px);
+    top: 37.16px;
+    bottom: 38.17px;
+
+}
+
+.nav-list ul {
+    display: flex;
+    margin-left: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+
+.nav-list ul li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: .85rem;
+    line-height: 20px;
+}
+
+.nav-list ul li::after {
+    content: "-";
+    color: #EEC244;
+    height: 3px;
+    width: 5px;
+    padding-left: 1rem;
+}
+
+.nav-list ul .last-li::after {
+    content: " ";
+}
+
+.nav-list a {
+
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease-in;
+}
+
+.nav-list a:hover {
+    color: #EEC244;
+}
+
+.navbar-btn {
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+}
+
+.nav-btn {
+    width: 210px;
+    height: 40px;
+    right: 0.01px;
+    top: 41.16px;
+    background: #EEC244;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* ......................Navbar style End................................................ */
+
+/* Style for Header Main */
+
+.header-main {
+    position: absolute;
+    top: 39%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+}
+
+.prev-btn {
+    padding-left: 0.7rem;
+    border-radius: 50%;
+    height: 40px;
+    width: 50px;
+}
+
+.prev-btn button {
+    height: 100%;
+    width: 105%;
+    border-radius: 50%;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.prev-btn button i {
+    font-size: x-large
+}
+
+.next-btn {
+    padding-right: 0.7rem;
+    border-radius: 50%;
+    height: 40px;
+    width: 50px;
+}
+
+.next-btn button {
+
+    height: 100%;
+    width: 105%;
+    border-radius: 50%;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.next-btn button i {
+    font-size: x-large
+}
+
+.center-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    height: 80%;
+    margin-left: -20rem;
+}
+
+.center-msg h6 {
+    color: #EEC244;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 200;
+    font-size: .7rem;
+    line-height: 21px;
+    letter-spacing: 2px;
+}
+
+.center-msg h1 {
+    margin: .5rem 0 .5rem 0;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 50px;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.center-msg p {
+    font-weight: 300;
+    font-size: .85rem;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.center-msg button{
+    width: 190px;
+    height: 100%;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 18px;
+    text-align: center;
+    color: #EEC244;
+    padding: .7rem;
+    background: transparent;
+    border: 1px solid #EEC244;
+    
+}
