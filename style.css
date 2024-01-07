@@ -603,3 +603,127 @@
 } 
 
 /* Style for Services section end here... */
+/* ..................................................................................... */
+
+/* Style for Capability section start here... */
+
+.cap-section{
+    position: relative;
+    height: 30rem;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    background-color: #2D322D;
+    display: flex;
+}
+
+.cap-section .cap-stats{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.cap-section .cap-stats .cap-info{
+    position: absolute;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    top: 5rem;
+    left: 15rem;
+}
+.cap-section .cap-stats .cap-info h6{
+    position: absolute;
+    width: 15rem;
+    height: 20px;
+    top: 0px;
+    font-weight: 400;
+    font-size: .7rem;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #EEC244;
+
+}
+
+.cap-section .cap-stats .cap-info h1{
+    position: absolute;
+    width: 30rem;
+    height: 7rem;
+    top: 2rem;
+    font-weight: 600;
+    font-size: 2rem;
+    align-items: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+.cap-section .cap-stats .cap-info p{
+    position: absolute;
+    width: 25rem;
+    top: 5.5rem;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.cap-section .cap-stats .cap-bar{
+    position: absolute;
+    /* display: flex;
+    flex-direction: column; */
+    width: 25rem;
+    height: 15rem;
+    top: 50%;
+    left: 31%;
+}
+
+.cap-bar .cap-bar-grp{
+    display: inline-flex;
+    align-items: center;
+}
+.cap-bar .cap-bar-grp h5{
+    margin-right: 17rem;
+    margin-bottom: .5rem;
+    color: #FFFFFF;
+}
+.cap-bar .cap-bar-grp p{
+    font-weight: 600;
+    font-size: .8rem;
+    color: #EEC244;
+}
+
+.cap-bar .cap-percent{
+    height: .2rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
+.cap-bar .cap-percent .cap-inner-layer1{
+    height: .2rem;
+    width: 85%;
+    background-color: #EEC244;
+}
+.cap-bar .cap-percent .cap-inner-layer2{
+    height: .2rem;
+    width: 79%;
+    background-color: #EEC244;
+}
+.cap-bar .cap-percent .cap-inner-layer3{
+    height: .2rem;
+    width: 81%;
+    background-color: #EEC244;
+}
+.cap-bar .cap-percent .cap-inner-layer4{
+    height: .2rem;
+    width: 88%;
+    background-color: #EEC244;
+}
+.cap-img{
+    
+    background: url('./Asset/our-capacity-img-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+    height: 100%;
+    width: 50%;
+}
