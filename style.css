@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     font-family: 'Jost', sans-serif;
 }
 
@@ -564,18 +566,20 @@
     cursor: pointer;
 
 }
-.service-img-container .img-grp2{
+
+.service-img-container .img-grp2 {
     position: relative;
     left: 50%;
 }
 
-.service-img-container .info-card-grp2{
+.service-img-container .info-card-grp2 {
     position: absolute;
 }
 
-.service-img-container .info-card-grp2 .info-msg{
+.service-img-container .info-card-grp2 .info-msg {
     position: relative;
-    left: 4rem;;
+    left: 4rem;
+    ;
     top: 5rem;
     width: 15rem;
     font-weight: 600;
@@ -585,7 +589,7 @@
     color: #292929;
 }
 
-.service-img-container .info-card-grp2 .info-para{
+.service-img-container .info-card-grp2 .info-para {
     position: absolute;
     width: 278px;
     left: 56px;
@@ -594,20 +598,20 @@
     font-size: 13px;
     line-height: 23px;
     text-align: center;
-    color: #292929;   
+    color: #292929;
 }
 
-.service-img-container .info-card-grp2 .info-btn-grp2{
+.service-img-container .info-card-grp2 .info-btn-grp2 {
     color: #292929;
     border: 2px solid #292929;
-} 
+}
 
 /* Style for Services section end here... */
 /* ..................................................................................... */
 
 /* Style for Capability section start here... */
 
-.cap-section{
+.cap-section {
     position: relative;
     height: 30rem;
     width: 100%;
@@ -617,13 +621,13 @@
     display: flex;
 }
 
-.cap-section .cap-stats{
+.cap-section .cap-stats {
     height: 100%;
     width: 50%;
     position: relative;
 }
 
-.cap-section .cap-stats .cap-info{
+.cap-section .cap-stats .cap-info {
     position: absolute;
     height: 11rem;
     display: flex;
@@ -633,7 +637,8 @@
     top: 5rem;
     left: 15rem;
 }
-.cap-section .cap-stats .cap-info h6{
+
+.cap-section .cap-stats .cap-info h6 {
     position: absolute;
     width: 15rem;
     height: 20px;
@@ -647,7 +652,7 @@
 
 }
 
-.cap-section .cap-stats .cap-info h1{
+.cap-section .cap-stats .cap-info h1 {
     position: absolute;
     width: 30rem;
     height: 7rem;
@@ -658,7 +663,8 @@
     letter-spacing: -1px;
     color: #FFFFFF;
 }
-.cap-section .cap-stats .cap-info p{
+
+.cap-section .cap-stats .cap-info p {
     position: absolute;
     width: 25rem;
     top: 5.5rem;
@@ -666,64 +672,141 @@
     line-height: 24px;
     color: #FFFFFF;
 }
-.cap-section .cap-stats .cap-bar{
+
+.cap-section .cap-stats .cap-bar {
     position: absolute;
-    /* display: flex;
-    flex-direction: column; */
     width: 25rem;
     height: 15rem;
     top: 50%;
     left: 31%;
 }
 
-.cap-bar .cap-bar-grp{
+.cap-bar .cap-bar-grp {
     display: inline-flex;
     align-items: center;
 }
-.cap-bar .cap-bar-grp h5{
+
+.cap-bar .cap-bar-grp h5 {
     margin-right: 17rem;
     margin-bottom: .5rem;
     color: #FFFFFF;
 }
-.cap-bar .cap-bar-grp p{
+
+.cap-bar .cap-bar-grp p {
     font-weight: 600;
     font-size: .8rem;
     color: #EEC244;
 }
 
-.cap-bar .cap-percent{
+.cap-bar .cap-percent {
     height: .2rem;
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 1rem;
     margin-bottom: .5rem;
 }
-.cap-bar .cap-percent .cap-inner-layer1{
+
+.cap-bar .cap-percent .cap-inner-layer1 {
     height: .2rem;
     width: 85%;
     background-color: #EEC244;
 }
-.cap-bar .cap-percent .cap-inner-layer2{
+
+.cap-bar .cap-percent .cap-inner-layer2 {
     height: .2rem;
     width: 79%;
     background-color: #EEC244;
 }
-.cap-bar .cap-percent .cap-inner-layer3{
+
+.cap-bar .cap-percent .cap-inner-layer3 {
     height: .2rem;
     width: 81%;
     background-color: #EEC244;
 }
-.cap-bar .cap-percent .cap-inner-layer4{
+
+.cap-bar .cap-percent .cap-inner-layer4 {
     height: .2rem;
     width: 88%;
     background-color: #EEC244;
 }
-.cap-img{
-    
+
+.cap-img {
+
     background: url('./Asset/our-capacity-img-01.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
     height: 100%;
     width: 50%;
 }
+
+/* Style for Capability section end here... */
+/* ..................................................................................... */
+
+/* Style for History section start here... */
+
+.history {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    background-color: #f0f0f08a;
+    margin-bottom: 6rem;
+}
+
+.history .history-img {
+    position: absolute;
+    background: url('./Asset/history-img.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    left: -2.1rem;
+    width: 65%;
+    height: 100%;
+}
+
+.history .history-info {
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    right: 1.3rem;
+    top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.history .history-info h6 {
+    width: 100%;
+    height: 1.5rem;
+    left: 0px;
+    top: 0px;
+    font-weight: 600;
+    font-size: .75rem;
+    line-height: 21px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #EEC244;
+}
+
+.history .history-info h1 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 40px;
+    letter-spacing: -2px;
+    color: #292929;
+}
+
+.history .history-info p{
+    width: 100%;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #868686;
+}
+
+
+/* Style for History section end here... */
+/* ..................................................................................... */
+
+
