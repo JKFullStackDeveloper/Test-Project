@@ -118,6 +118,7 @@
     font-weight: 400;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -225,6 +226,7 @@
     padding: .7rem;
     background: transparent;
     border: 1px solid #EEC244;
+    cursor: pointer;
 }
 
 /* Header style end here..... */
@@ -354,7 +356,7 @@
 .prod-info {
     position: relative;
     height: 600px;
-    margin-bottom: 15rem;
+    margin-bottom: 7rem;
 }
 
 .info-container {
@@ -406,6 +408,7 @@
     background: #EEC244;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .info-box {
@@ -436,3 +439,167 @@
 }
 
 /* Style for Information section end here... */
+/* ............................................................................................ */
+
+/* Style for Services section start here... */
+
+.services {
+    height: 58rem;
+    width: 100%;
+    position: relative;
+}
+
+.services>h1 {
+    position: absolute;
+    font-family: 'Rubik doodle', system-ui;
+    font-size: 140px;
+    top: 3rem;
+    opacity: .05;
+    text-align: center;
+    left: 32rem;
+}
+
+.services .service-info {
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    top: 7rem;
+}
+
+.services .service-info h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #EEC244;
+    position: absolute;
+    left: 45rem;
+}
+
+.services .service-info h1 {
+    position: absolute;
+    left: 34.5rem;
+    width: 31rem;
+    top: 2.5rem;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -2px;
+}
+
+.services .service-img {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 17rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.service-img .service-img-container {
+    width: 50%;
+    height: 50%;
+}
+
+.service-img-container .img-card {
+    height: 101%;
+}
+
+.service-img-container .img-card img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+
+.service-img-container .info-card-grp1 {
+    position: relative;
+    left: 50%;
+    height: 101%;
+    width: 50.2%;
+    background-color: #292929;
+    bottom: 101%;
+    z-index: 1;
+}
+
+.service-img-container .info-card-grp1 .info-msg {
+    position: absolute;
+    left: 18%;
+    top: 70px;
+    width: 15rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.service-img-container .info-card-grp1 .info-para {
+    position: absolute;
+    width: 278px;
+    left: 56px;
+    top: 120px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.service-img-container .info-btn {
+    position: absolute;
+    height: 2.5rem;
+    left: 8rem;
+    top: 12rem;
+    width: 8rem;
+    background: transparent;
+    border: 1px solid #EEC244;
+    color: #EEC244;
+    font-size: .7rem;
+    cursor: pointer;
+
+}
+.service-img-container .img-grp2{
+    position: relative;
+    left: 50%;
+}
+
+.service-img-container .info-card-grp2{
+    position: absolute;
+}
+
+.service-img-container .info-card-grp2 .info-msg{
+    position: relative;
+    left: 4rem;;
+    top: 5rem;
+    width: 15rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 45px;
+    text-align: center;
+    color: #292929;
+}
+
+.service-img-container .info-card-grp2 .info-para{
+    position: absolute;
+    width: 278px;
+    left: 56px;
+    top: 120px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    color: #292929;   
+}
+
+.service-img-container .info-card-grp2 .info-btn-grp2{
+    color: #292929;
+    border: 2px solid #292929;
+} 
+
+/* Style for Services section end here... */
