@@ -285,14 +285,15 @@
     color: #292929;
 }
 
-.about-container .about-msg .abt-para-msg{
+.about-container .about-msg .abt-para-msg {
     font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-color: #292929;
+    font-size: 16px;
+    line-height: 20px;
+    color: #292929;
+    margin-left: 1.5rem;
 }
 
-.about-msg button{
+.about-msg button {
     width: 140px;
     margin-top: 1rem;
     font-weight: 400;
@@ -301,8 +302,10 @@ color: #292929;
     color: #FFFFFF;
     background-color: #EEC244;
     padding: .7rem;
-    border: none; 
+    border: none;
+    margin-left: 1.5rem;
 }
+
 .about-img {
     position: absolute;
     display: flex;
@@ -316,26 +319,120 @@ color: #292929;
     width: 200px;
     height: 200px;
 }
-.about-img .about-img1 p{
+
+.about-img .about-img1 p {
     display: flex;
     flex-direction: column;
     align-items: center
 }
-.about-img .about-img1 p .span-first{
+
+.about-img .about-img1 p .span-first {
     font-size: 35px;
     color: #EEC244;
     font-weight: 800;
     position: relative;
     bottom: -22px;
 }
-.about-img .about-img1 p .span2{
+
+.about-img .about-img1 p .span2 {
     color: #aca0a0;
     font-weight: 500;
     font-size: 15px;
 }
+
 .about-img .about-img2 img {
     position: relative;
     top: 1.5rem;
     width: 200px;
     height: 250px;
 }
+
+/* Style for About end here... */
+
+/* Style for Information section start here... */
+
+.prod-info {
+    position: relative;
+    height: 600px;
+    margin-bottom: 15rem;
+}
+
+.info-container {
+    position: absolute;
+    background: url('./Asset/about-img-03.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.info-container .info-head-msg {
+    position: absolute;
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    width: 550px;
+    left: 30rem;
+    top: 10.5rem;
+    text-align: center;
+}
+
+.info-container .info-para-msg {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    left: 30rem;
+    top: 20rem;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-container .info-btn {
+    position: absolute;
+    width: 8rem;
+    height: 2.3rem;
+    left: 43rem;
+    top: 26rem;
+    font-size: 13px;
+    text-align: center;
+    color: #292929;
+    background: #EEC244;
+    outline: none;
+    border: none;
+}
+
+.info-box {
+    position: absolute;
+    height: 10rem;
+    width: 70%;
+    background-color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    top: 35rem;
+    left: 15rem;
+    box-shadow: 0 5px 22px -10px #9b9494;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-box h1 {
+    font-size: 45px;
+    color: #EEC244;
+    font-weight: 600;
+}
+
+.info-box h3 {
+    color: #aca0a0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Style for Information section end here... */
