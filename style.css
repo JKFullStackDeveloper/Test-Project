@@ -8,10 +8,10 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
-.container {
+ .container {
     max-width: 1880px;
     overflow: hidden;
-}
+} 
 
 /* Style for Header */
 
@@ -26,7 +26,7 @@ body {
 .header-logo {
     position: absolute;
     height: 100vh;
-    width: 1600px;
+    width: 100%;
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 200px;
 }
 
@@ -962,7 +962,6 @@ body {
     position: relative;
     height: 600px;
     width: 100%;
-    margin-bottom: 5rem;
 }
 
 .testimonial>h1{
@@ -1055,4 +1054,56 @@ body {
 }
 
 /* Style for Testimonial section end here... */
+/* ............................................................. */
+
+/* Style for dream home section start here */
+
+.drm-home{
+    position: relative;
+    height: 423px;
+    width: 100%;
+    background:url('./Asset/dream-home-img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.drm-home .drm-home-info{
+    position: absolute;
+    top: 7rem;
+    left: 17rem;
+    height: 100%;
+    width: 35rem;
+}
+
+.drm-home .drm-home-info .drm-home-head{
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 1rem;
+}
+
+.drm-home .drm-home-info .drm-home-para{
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.drm-home .drm-home-info .drm-home-btn{
+    width: 6rem;
+    height: 2rem;
+    font-size: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EEC244;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+/* Style for dream home section end here */
+
 
