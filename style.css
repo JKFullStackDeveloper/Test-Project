@@ -751,7 +751,7 @@ body {
     width: 100%;
     height: 40rem;
     background-color: #f0f0f08a;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .history .history-img {
@@ -849,10 +849,8 @@ body {
 .project .project-info h1 {
     position: absolute;
     left: 30rem;
-    width: 31rem;
+    width: 35rem;
     top: 2.5rem;
-    font-family: 'Jost';
-    font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 49px;
@@ -957,4 +955,104 @@ body {
 
 /* Style for Project section end here... */
 /* ..................................................................................... */
+
+/* Style for Testimonial section start here... */
+
+.testimonial{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.testimonial>h1{
+    position: absolute;
+    font-family: 'Rubik doodle', system-ui;
+    font-size: 140px;
+    opacity: .05;
+    text-align: center;
+    left: 25rem;
+}
+
+.testimonial .test-icon h1{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 2rem;
+    color: #EEC244;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.testimonial .test-head-msg h1{
+    position: absolute;
+    left: 34rem;
+    width: 31rem;
+    top: 8rem;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -2px;
+}
+
+.testimonial .test-feedback{
+    position: absolute;
+    top: 7rem;
+    left: 11%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+    width: 90%;
+    margin-right: 8rem;
+}
+
+.testimonial .test-feedback .feedback-grp{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: start;
+    height: 50%;
+}
+
+.testimonial .test-feedback .feedback-grp p{
+    font-style: italic;
+    font-size: .85rem;
+    line-height: 24px;
+    color: #868686;
+    margin-bottom: 1rem;
+}
+
+.testimonial .feedback-grp .feedback-user .feedback-user-info{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.testimonial .feedback-grp .feedback-user .feedback-user-info .user-details{
+    position: relative;
+    left: 1.2rem;
+    top: 0.75rem;
+    color: #868686;
+}
+.testimonial .pagi-icon{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    bottom: 2.5rem;
+}
+.testimonial .pagi-icon .pagi-circle-grp{
+    position: relative;
+    background-color: #afabab4a;
+    height: 0.5rem;
+    width: 0.5rem;
+    display: inline-block;
+    left: 48rem;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+.testimonial .pagi-icon .pagi-circle{
+    background-color: #EEC244;
+}
+
+/* Style for Testimonial section end here... */
 
