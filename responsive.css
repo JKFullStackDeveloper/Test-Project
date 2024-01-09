@@ -1,0 +1,236 @@
+
+
+
+/* Style for Responsive Design */
+
+
+@media only screen and (max-width: 1280px) {
+
+    /* about section */
+    .about>h1 {
+        left: 13rem;
+    }
+
+    .about-container .about-msg {
+        position: absolute;
+        left: -5rem;
+    }
+
+    .info-container .info-head-msg,
+    .info-container .info-para-msg,
+    .services>h1,
+    .project .project-info h1 {
+        left: 24rem;
+    }
+
+    .info-container .info-btn {
+        left: 38rem;
+    }
+
+    .info-box {
+        left: 13rem;
+    }
+
+    .services .service-info h6 {
+        left: 38rem;
+    }
+
+    .services .service-info h1 {
+        left: 26rem;
+    }
+
+    .service-img-container .info-card-grp1 .info-msg,
+    .service-img-container .info-card-grp2 .info-msg {
+        left: 2rem;
+    }
+
+    .service-img-container .info-card-grp1 .info-para,
+    .service-img-container .info-card-grp2 .info-para {
+        width: 300px;
+        left: 16px;
+    }
+
+    .service-img-container .info-btn {
+        top: 13rem;
+        left: 6rem;
+    }
+
+    .cap-section .cap-stats .cap-info {
+        left: 10rem;
+    }
+
+    .cap-section .cap-stats .cap-bar {
+        left: 25%;
+    }
+
+    .project>h1 {
+        left: 25rem;
+    }
+
+    .project .project-info h6 {
+        left: 36rem;
+    }
+
+    .img-grid .item-grp .img-info1 {
+        top: 27%;
+    }
+
+    .history {
+        height: 34rem;
+    }
+
+    .history .history-img {
+        width: 60%;
+    }
+
+    .drm-home {
+        height: 362px;
+    }
+
+    .footer .footer-top {
+        top: 5%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .navbar {
+        left: 9rem;
+    }
+
+    .nav-list {
+        width: 450px;
+        left: 12%;
+    }
+    .nav-btn {
+        width: 160px;
+        font-size: .85rem;
+    }
+    .center-msg,.about-container .about-msg .abt-para-msg,.about-msg button
+    {
+        margin-left: 0;
+    }
+    .about>h1{
+        margin-left: -8rem;
+    }
+    .about-container .about-msg {
+        padding-left: 0;
+        width: 70%;
+        margin-left: -6rem;
+    }
+    .about-container .about-msg h6,.about-container .about-msg .abt-main-msg{
+        padding-left: 0;
+    }
+    .about-img{
+        right: 0;
+    }
+    .info-container .info-head-msg,.info-container .info-para-msg,.services>h1{
+        left: 15rem;
+    }
+    .info-container .info-btn,.services .service-info h6{
+        left: 29rem;
+    }
+    .info-box{
+        left: 10rem;
+    }
+    .services .service-info h1{
+        left: 17rem;
+    }
+    .service-img-container .info-card-grp1 .info-msg,
+    .service-img-container .info-card-grp2 .info-msg{
+        left: 0;
+    }
+    .service-img-container .info-card-grp1 .info-para,
+    .service-img-container .info-card-grp2 .info-para{
+        width: 230px;
+    }
+    .service-img-container .info-btn{
+        top: 14rem;
+        left: 4rem;
+    }
+    .cap-section .cap-stats .cap-info{
+        left: 5rem;
+    }   
+    .cap-section .cap-stats .cap-bar{
+        left: 16%;
+    }
+    .project>h1{
+        left: 18rem;
+    }
+    .project .project-info h6{
+        left: 29rem;
+    }
+    .project .project-info h1{
+        left: 16rem;
+    }
+    .project .project-img{
+        width: 70%;
+        height: 55%;
+    }
+    .project{
+        height: 850px;
+    }
+    .img-grid .item-grp .img-info1{
+        top: 22%;
+    }
+    .project-img .img-grid .img-para{
+        width: 180px;
+    }
+    .testimonial>h1{
+        font-size: 115px;
+        left: 15rem;
+    }
+    
+.testimonial .test-head-msg h1 {
+    left: 21rem;
+    top: 6rem;
+    font-weight: 600;
+    }
+    .testimonial .test-feedback {
+        top: 7rem;
+        left: 5.5%;
+        height: 30%;
+        width: 100%;
+    }
+    .testimonial .pagi-icon{
+        bottom: 0;
+    }
+    .testimonial .pagi-icon .pagi-circle-grp{
+        left: 33rem;
+    }
+    .drm-home .drm-home-info{
+        top: 5rem;
+        left: 11rem;
+    }
+    .footer .footer-top{
+        width: 70%;
+        left: 15%;
+    }
+    .footer-top .footer-logo .footer-logo-img img{
+        height: 5rem;
+        width: 4rem;
+    }
+    .footer-top .footer-logo .footer-logo-msg {
+        width: 100%;
+        height: 70px;
+        line-height: 17px;
+    }
+    .footer-top .footer-link {
+        height: 9rem;
+        margin-left: 2rem;
+        width: 20rem;
+    }
+    .footer-top h4 {
+        font-size: 1rem;
+    }
+    .footer-top .footer-contact {
+        height: 9rem;
+        padding-left: 3rem;
+    }
+    .footer-top .footer-news {
+        height: 9rem;
+        margin-left: 2rem;
+    }
+    .footer-top .footer-news .news-info .news-btn img{
+        left: 18%;
+    }
+}
