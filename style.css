@@ -2,16 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Jost', sans-serif;
 }
 
- .container {
-    max-width: 1880px;
-    overflow: hidden;
-} 
+body {
+    overflow-x: hidden;
+}
 
 /* Style for Header */
 
@@ -19,20 +15,18 @@ body {
 /* style for navbar */
 .header {
     position: relative;
-    height: 100vh;
+    height: 770px;
     width: 100%;
 }
 
 .header-logo {
     position: absolute;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
 }
 
 .navbar {
@@ -58,15 +52,12 @@ body {
 .nav-list {
     position: absolute;
     width: 500px;
-    left: calc(50% - 545px/2 - 54.16px);
-    top: 37.16px;
-    bottom: 38.17px;
-
+    left: 20%;
+    top: 2.5rem;
 }
 
 .nav-list ul {
     display: flex;
-    margin-left: 10rem;
     align-items: center;
     justify-content: space-between;
     margin-left: 3rem;
@@ -110,19 +101,26 @@ body {
 }
 
 .nav-btn {
-    width: 210px;
+    width: 200px;
     height: 40px;
     right: 0.01px;
     top: 41.16px;
     background: #EEC244;
-    cursor: pointer;
     border: none;
-    font-size: 15px;
+    font-size: .9rem;
     font-weight: 400;
     align-items: center;
     text-align: center;
     cursor: pointer;
+    transition: all .2s ease-in;
 }
+
+.nav-btn:hover{
+    background-color: transparent;
+    border: 1px dotted #FFFFFF;
+    color: #FFFFFF;
+}
+
 
 
 /* ......................Navbar style End................................................ */
@@ -153,6 +151,12 @@ body {
     border: none;
     font-weight: 900;
     cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.prev-btn button:hover{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
 }
 
 .prev-btn button i {
@@ -175,8 +179,14 @@ body {
     border: none;
     font-weight: 900;
     cursor: pointer;
+    transition: all 0.2s ease-in;
 }
 
+.next-btn button:hover{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
 .next-btn button i {
     font-size: x-large
 }
@@ -188,6 +198,7 @@ body {
     justify-content: space-evenly;
     height: 80%;
     margin-left: -20rem;
+    margin-top: 5rem;
 }
 
 .center-msg h6 {
@@ -202,36 +213,37 @@ body {
 
 .center-msg h1 {
     margin: .5rem 0 .5rem 0;
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 50px;
-    letter-spacing: -2px;
+    font-size: 44px;
+    line-height: 44px;
     text-transform: capitalize;
     color: #FFFFFF;
 }
 
 .center-msg p {
     font-weight: 300;
-    font-size: .85rem;
+    font-size: 13px;
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 1rem;
 }
 
 .center-msg button {
-    width: 190px;
+    width: 210px;
     height: 100%;
-    font-weight: 400;
-    font-size: .8rem;
+    font-size: 14px;
     line-height: 18px;
     text-align: center;
     color: #EEC244;
     padding: .7rem;
     background: transparent;
-    border: 1px solid #EEC244;
+    border: 2px solid #EEC244;
     cursor: pointer;
+    transition: all 0.2s ease-in;
 }
-
+.center-msg button:hover{
+    color: #FFFFFF;
+    border: 2px dotted #FFFFFF;
+}
 /* Header style end here..... */
 /* ......................................................................................... */
 
@@ -240,7 +252,6 @@ body {
 .about {
     position: relative;
     height: 500px;
-    background-color: #dcd5d545;
 }
 
 .about>h1 {
@@ -255,9 +266,8 @@ body {
 .about .about-container {
     height: 500px;
     width: 70%;
-    margin-left: 8rem;
     position: relative;
-    left: 8rem;
+    left: 16rem;
     display: flex;
     top: -2rem;
 }
@@ -272,30 +282,29 @@ body {
 .about-container .about-msg h6 {
     padding-left: 1.5rem;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #EEC244;
 }
 
 .about-container .about-msg .abt-main-msg {
     margin-top: 15px;
+    margin-bottom: 1rem;
     padding-left: 1.6rem;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 49px;
+    font-size: 39px;
+    line-height: 44px;
     align-items: center;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     color: #292929;
 }
 
 .about-container .about-msg .abt-para-msg {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 18px;
     color: #292929;
     margin-left: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .about-msg button {
@@ -309,6 +318,12 @@ body {
     padding: .7rem;
     border: none;
     margin-left: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out
+}
+.about-msg button:hover{
+    background-color: #29292987;
+    color: #292929;
 }
 
 .about-img {
@@ -373,11 +388,10 @@ body {
 
 .info-container .info-head-msg {
     position: absolute;
-    font-family: 'Jost';
     font-weight: 600;
-    font-size: 40px;
-    line-height: 49px;
-    letter-spacing: -2px;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -1px;
     color: #FFFFFF;
     width: 550px;
     left: 30rem;
@@ -387,14 +401,11 @@ body {
 
 .info-container .info-para-msg {
     position: absolute;
-    width: 600px;
-    height: 60px;
+    width: 574px;
     left: 30rem;
     top: 20rem;
-    font-family: 'Jost';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 21px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -412,8 +423,14 @@ body {
     outline: none;
     border: none;
     cursor: pointer;
+    transition: all 0.2s ease-in;
 }
 
+.info-container .info-btn:hover{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px dotted #FFFFFF;
+}
 .info-box {
     position: absolute;
     height: 10rem;
@@ -436,9 +453,9 @@ body {
 }
 
 .info-box h3 {
-    color: #aca0a0;
-    font-weight: 700;
+    color: #807676;
     font-size: 14px;
+    letter-spacing: .5px;
 }
 
 /* Style for Information section end here... */
@@ -470,10 +487,9 @@ body {
 }
 
 .services .service-info h6 {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: #EEC244;
     position: absolute;
@@ -485,12 +501,12 @@ body {
     left: 34.5rem;
     width: 31rem;
     top: 2.5rem;
-    font-family: 'Jost';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 49px;
-    letter-spacing: -2px;
+    font-size: 38px;
+    line-height: 41px;
+    letter-spacing: -1px;
+    text-align: center;
 }
 
 .services .service-img {
@@ -536,7 +552,7 @@ body {
     top: 70px;
     width: 15rem;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 45px;
     text-align: center;
     color: #FFFFFF;
@@ -544,11 +560,11 @@ body {
 
 .service-img-container .info-card-grp1 .info-para {
     position: absolute;
-    width: 278px;
-    left: 56px;
+    width: 320px;
+    left: 30px;
     top: 120px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
@@ -561,13 +577,16 @@ body {
     top: 12rem;
     width: 8rem;
     background: transparent;
-    border: 1px solid #EEC244;
+    border: 2px solid #EEC244;
     color: #EEC244;
     font-size: .7rem;
     cursor: pointer;
-
+    transition: all 0.2s ease-in;
 }
-
+.service-img-container .info-btn:hover{
+    color: #FFFFFF;
+    border: 2px dotted #FFFFFF;
+}
 .service-img-container .img-grp2 {
     position: relative;
     left: 50%;
@@ -578,13 +597,12 @@ body {
 }
 
 .service-img-container .info-card-grp2 .info-msg {
-    position: relative;
+    position: absolute;
     left: 4rem;
-    ;
     top: 5rem;
     width: 15rem;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 45px;
     text-align: center;
     color: #292929;
@@ -592,11 +610,11 @@ body {
 
 .service-img-container .info-card-grp2 .info-para {
     position: absolute;
-    width: 278px;
-    left: 56px;
+    width: 320px;
+    left: 30px;
     top: 120px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 23px;
     text-align: center;
     color: #292929;
@@ -605,6 +623,11 @@ body {
 .service-img-container .info-card-grp2 .info-btn-grp2 {
     color: #292929;
     border: 2px solid #292929;
+    transition: all 0.2s ease-in;
+}
+.service-img-container .info-card-grp2 .info-btn-grp2:hover{
+    color: #EEC244;
+    border: 2px dotted #EEC244;
 }
 
 /* Style for Services section end here... */
@@ -658,10 +681,8 @@ body {
     width: 30rem;
     height: 7rem;
     top: 2rem;
-    font-weight: 600;
-    font-size: 2rem;
+    font-size: 28px;
     align-items: center;
-    letter-spacing: -1px;
     color: #FFFFFF;
 }
 
@@ -688,13 +709,15 @@ body {
 }
 
 .cap-bar .cap-bar-grp h5 {
+    font-size: 12px;
+    letter-spacing: 1px;
     margin-right: 17rem;
     margin-bottom: .5rem;
     color: #FFFFFF;
+    
 }
 
 .cap-bar .cap-bar-grp p {
-    font-weight: 600;
     font-size: .8rem;
     color: #EEC244;
 }
@@ -836,8 +859,7 @@ body {
 }
 
 .project .project-info h6 {
-    font-weight: 400;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 21px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -852,9 +874,9 @@ body {
     width: 35rem;
     top: 2.5rem;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 49px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 
 .project .project-img {
@@ -912,36 +934,39 @@ body {
     height: 100%;
 }
 
-.img-grid .item-grp .img-info1{
+.img-grid .item-grp .img-info1 {
     position: absolute;
     top: 30%;
     width: 28%;
     margin-left: 2.5rem;
     height: 9rem;
 }
-.img-grid .item-grp .img-info2{
+
+.img-grid .item-grp .img-info2 {
     position: absolute;
     bottom: 1rem;
     margin-left: 2.5rem;
     width: 28%;
-    height: 9rem;  
+    height: 9rem;
 }
 
-.project-img .img-grid .img-head{
+.project-img .img-grid .img-head {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 18px;
+    letter-spacing: 1px;
     line-height: 30px;
     color: #FFFFFF;
 }
 
-.project-img .img-grid .img-para{
+.project-img .img-grid .img-para {
+    width: 215px;
     font-size: .8rem;
     line-height: 20px;
     color: #FFFFFF;
     margin-bottom: 1.5rem;
 }
 
-.project-img .img-grid .img-btn{
+.project-img .img-grid .img-btn {
     width: 6rem;
     height: 2rem;
     font-size: 11px;
@@ -950,6 +975,12 @@ body {
     background: #EEC244;
     border: none;
     cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.project-img .img-grid .img-btn:hover{
+    background-color: transparent;
+    color: #EEC244;
+    border: 2px dotted #EEC244;
 }
 
 
@@ -958,13 +989,13 @@ body {
 
 /* Style for Testimonial section start here... */
 
-.testimonial{
+.testimonial {
     position: relative;
     height: 600px;
     width: 100%;
 }
 
-.testimonial>h1{
+.testimonial>h1 {
     position: absolute;
     font-family: 'Rubik doodle', system-ui;
     font-size: 140px;
@@ -973,7 +1004,7 @@ body {
     left: 25rem;
 }
 
-.testimonial .test-icon h1{
+.testimonial .test-icon h1 {
     position: absolute;
     width: 100%;
     left: 50%;
@@ -983,21 +1014,20 @@ body {
     font-size: 5rem;
 }
 
-.testimonial .test-head-msg h1{
+.testimonial .test-head-msg h1 {
     position: absolute;
-    left: 34rem;
+    left: 37rem;
     width: 31rem;
     top: 8rem;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 38px;
     letter-spacing: -2px;
 }
 
-.testimonial .test-feedback{
+.testimonial .test-feedback {
     position: absolute;
     top: 7rem;
-    left: 11%;
+    left: 5.5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1006,7 +1036,7 @@ body {
     margin-right: 8rem;
 }
 
-.testimonial .test-feedback .feedback-grp{
+.testimonial .test-feedback .feedback-grp {
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -1014,42 +1044,47 @@ body {
     height: 50%;
 }
 
-.testimonial .test-feedback .feedback-grp p{
+.testimonial .test-feedback .feedback-grp p {
     font-style: italic;
-    font-size: .85rem;
+    font-size: 16px;
     line-height: 24px;
     color: #868686;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
-.testimonial .feedback-grp .feedback-user .feedback-user-info{
+.testimonial .feedback-grp .feedback-user .feedback-user-info {
     display: flex;
     align-items: center;
     padding: 1rem;
 }
-.testimonial .feedback-grp .feedback-user .feedback-user-info .user-details{
+
+.testimonial .feedback-grp .feedback-user .feedback-user-info .user-details {
     position: relative;
     left: 1.2rem;
     top: 0.75rem;
     color: #868686;
 }
-.testimonial .pagi-icon{
+
+.testimonial .pagi-icon {
     position: absolute;
     height: 50px;
     width: 100%;
     bottom: 2.5rem;
 }
-.testimonial .pagi-icon .pagi-circle-grp{
+
+.testimonial .pagi-icon .pagi-circle-grp {
     position: relative;
     background-color: #afabab4a;
     height: 0.5rem;
     width: 0.5rem;
     display: inline-block;
-    left: 48rem;
+    left: 44rem;
     border-radius: 100%;
     margin-left: 5px;
 }
-.testimonial .pagi-icon .pagi-circle{
+
+.testimonial .pagi-icon .pagi-circle {
     background-color: #EEC244;
 }
 
@@ -1058,16 +1093,17 @@ body {
 
 /* Style for dream home section start here */
 
-.drm-home{
+.drm-home {
     position: relative;
     height: 423px;
     width: 100%;
-    background:url('./Asset/dream-home-img.png');
+    background: url('./Asset/dream-home-img.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
-.drm-home .drm-home-info{
+
+.drm-home .drm-home-info {
     position: absolute;
     top: 7rem;
     left: 17rem;
@@ -1075,35 +1111,134 @@ body {
     width: 35rem;
 }
 
-.drm-home .drm-home-info .drm-home-head{
-    font-weight: 600;
-    font-size: 40px;
-    letter-spacing: -2px;
+.drm-home .drm-home-info .drm-home-head {
+    width: 375px;
+    font-size: 33px;
+    letter-spacing: -1px;
     color: rgb(255, 255, 255);
     padding-bottom: 1rem;
 }
 
-.drm-home .drm-home-info .drm-home-para{
-    font-size: 0.9rem;
+.drm-home .drm-home-info .drm-home-para {
+    font-size: 13px;
+    width: 500px;
     color: rgb(255, 255, 255);
     line-height: 20px;
     margin-bottom: 1.5rem;
 }
 
-.drm-home .drm-home-info .drm-home-btn{
+.drm-home .drm-home-info .drm-home-btn {
     width: 6rem;
     height: 2rem;
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     color: #FFFFFF;
     background: #EEC244;
     border: none;
     cursor: pointer;
+    transition: all 0.2s ease-in;
 }
 
-
-
+.drm-home .drm-home-info .drm-home-btn:hover{
+    background-color: transparent;
+    color: #EEC244;
+    border: 2px dotted #EEC244;
+}
 
 /* Style for dream home section end here */
+/* .............................................................. */
 
+/* Style for dream footer section start here */
 
+.footer {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: #2D322D;
+}
+
+.footer .footer-top {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    left: 17%;
+    top: 12%;
+    height: 50%;
+}
+
+.footer-top .footer-logo {
+    width: 60%;
+}
+
+.footer-top .footer-logo .footer-logo-img img {
+    height: 6rem;
+    width: 6rem;
+}
+
+.footer-top .footer-logo .footer-logo-msg {
+    width: 82%;
+    height: 71px;
+    font-size: 0.75rem;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-top .footer-link {
+    width: 14rem;
+    height: 11rem;
+}
+
+.footer-top h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+.footer-top .footer-link .link-list ul li{
+    list-style: none;
+    padding-bottom: .5rem;
+}
+
+.footer-top .footer-link .link-list ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: .8rem;
+    transition: all 0.2s ease-in;
+}
+.footer-top .footer-link .link-list ul li a:hover{
+    color: #EEC244;
+}
+
+.footer-top .footer-contact{
+    width: 14rem;
+    height: 11rem;
+    padding-left: 5rem;
+}
+.footer-top .footer-contact .contact-list{
+    font-size: .8rem;
+    color: #FFFFFF;
+    line-height: 1.2rem;
+    width: 12rem;
+}
+.footer-top .footer-contact .contact-list img{
+    height: 17px; 
+    width: 20px; 
+    margin-top: 3px; 
+    margin-right: 10px;
+}
+
+.footer-top .footer-contact .contact-list .contact-address{
+    display: flex;
+    margin-bottom: .5rem;
+}
+.footer-top .footer-contact .contact-list .contact-phone{
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.footer-top .footer-contact .contact-list .contact-email{
+    display: flex;
+}
+/* Style for dream footer section end here */
