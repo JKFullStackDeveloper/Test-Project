@@ -5,10 +5,6 @@
     font-family: 'Jost', sans-serif;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 /* Style for Header */
 
 /* .............................................................. */
@@ -255,7 +251,7 @@ body {
 }
 
 .about>h1 {
-    position: relative;
+    position: absolute;
     font-family: 'Rubik doodle', system-ui;
     font-size: 140px;
     top: 3rem;
@@ -264,12 +260,12 @@ body {
 }
 
 .about .about-container {
-    height: 500px;
+    height: 340px;
     width: 70%;
-    position: relative;
+    position: absolute;
     left: 16rem;
     display: flex;
-    top: -2rem;
+    top: 10rem;
 }
 
 .about-container .about-msg {
@@ -322,8 +318,9 @@ body {
     transition: all 0.2s ease-in-out
 }
 .about-msg button:hover{
-    background-color: #29292987;
-    color: #292929;
+    background-color: #FFFFFF;
+    color: #EEC244;
+    border: 2px dotted #EEC244;
 }
 
 .about-img {
@@ -467,6 +464,7 @@ body {
     height: 58rem;
     width: 100%;
     position: relative;
+    overflow-x: hidden;
 }
 
 .services>h1 {
@@ -480,7 +478,7 @@ body {
 }
 
 .services .service-info {
-    height: 30%;
+    height: 18%;
     width: 100%;
     position: absolute;
     top: 7rem;
@@ -516,7 +514,6 @@ body {
     top: 17rem;
     display: flex;
     flex-wrap: wrap;
-    margin: 5px;
 }
 
 .service-img .service-img-container {
@@ -525,7 +522,7 @@ body {
 }
 
 .service-img-container .img-card {
-    height: 101%;
+    height: 100%;
 }
 
 .service-img-container .img-card img {
@@ -539,11 +536,10 @@ body {
 .service-img-container .info-card-grp1 {
     position: relative;
     left: 50%;
-    height: 101%;
-    width: 50.2%;
+    height: 100%;
+    width: 50%;
     background-color: #292929;
-    bottom: 101%;
-    z-index: 1;
+    bottom: 100%;
 }
 
 .service-img-container .info-card-grp1 .info-msg {
@@ -1006,7 +1002,6 @@ body {
 
 .testimonial .test-icon h1 {
     position: absolute;
-    width: 100%;
     left: 50%;
     top: 2rem;
     color: #EEC244;
@@ -1107,7 +1102,7 @@ body {
     position: absolute;
     top: 7rem;
     left: 17rem;
-    height: 100%;
+    height: 70%;
     width: 35rem;
 }
 
@@ -1152,7 +1147,7 @@ body {
 
 .footer {
     position: relative;
-    height: 400px;
+    height: 350px;
     width: 100%;
     background-color: #2D322D;
 }
@@ -1164,7 +1159,7 @@ body {
     width: 66%;
     left: 17%;
     top: 12%;
-    height: 50%;
+    height: 60%;
 }
 
 .footer-top .footer-logo {
@@ -1286,13 +1281,34 @@ body {
     width: 100%;    
     text-align: center;
 }
-
-.footer hr{
-    position:absolute;
-    height: 0.1px;
-    width: 67%;
-    color: #FAF9FD;
-    top: 75%;
-    left: 17%;
+.footer .footer-bottom{
+    position: absolute;
+    bottom: 1rem;
+    border-top: 0.01rem solid gray;
+    padding-top: 1rem;
+    width: 68%;
+    display: flex;
+    left: 16%;
+    align-items: center;
+    justify-content: space-between;
 }
+.footer .footer-bottom .footer-copyright p{
+    font-size: 12px;
+    color: #FAF9FD;
+}
+
+.footer .footer-bottom .footer-medialink{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95px;
+}
+.footer .footer-bottom .footer-medialink a{
+    text-decoration: none;
+}
+.footer .footer-bottom .footer-medialink a i{
+    color: #FAF9FD;
+    font-size: 19px;
+}
+
 /* Style for footer section end here */
