@@ -1,13 +1,15 @@
-@import url(./responsive.css);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
+    
 }
 
 body {
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* Style for Header */
@@ -66,7 +68,6 @@ body {
 
 .nav-list ul li {
     list-style: none;
-    font-style: normal;
     font-weight: 500;
     font-size: .85rem;
     line-height: 20px;
@@ -688,7 +689,6 @@ body {
     height: 7rem;
     top: 2rem;
     font-size: 28px;
-    align-items: center;
     color: #FFFFFF;
 }
 
@@ -720,7 +720,6 @@ body {
     margin-right: 17rem;
     margin-bottom: .5rem;
     color: #FFFFFF;
-
 }
 
 .cap-bar .cap-bar-grp p {

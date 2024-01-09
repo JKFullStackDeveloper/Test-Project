@@ -1,6 +1,3 @@
-
-
-
 /* Style for Responsive Design */
 
 
@@ -101,136 +98,390 @@
         width: 450px;
         left: 12%;
     }
+
     .nav-btn {
         width: 160px;
         font-size: .85rem;
     }
-    .center-msg,.about-container .about-msg .abt-para-msg,.about-msg button
-    {
+
+    .center-msg,
+    .about-container .about-msg .abt-para-msg,
+    .about-msg button {
         margin-left: 0;
     }
-    .about>h1{
+
+    .about>h1 {
         margin-left: -8rem;
     }
+
     .about-container .about-msg {
         padding-left: 0;
         width: 70%;
         margin-left: -6rem;
     }
-    .about-container .about-msg h6,.about-container .about-msg .abt-main-msg{
+
+    .about-container .about-msg h6,
+    .about-container .about-msg .abt-main-msg {
         padding-left: 0;
     }
-    .about-img{
+
+    .about-img {
         right: 0;
     }
-    .info-container .info-head-msg,.info-container .info-para-msg,.services>h1{
+
+    .info-container .info-head-msg,
+    .info-container .info-para-msg,
+    .services>h1 {
         left: 15rem;
     }
-    .info-container .info-btn,.services .service-info h6{
+
+    .info-container .info-btn,
+    .services .service-info h6 {
         left: 29rem;
     }
-    .info-box{
+
+    .info-box {
         left: 10rem;
     }
-    .services .service-info h1{
+
+    .services .service-info h1 {
         left: 17rem;
     }
+
     .service-img-container .info-card-grp1 .info-msg,
-    .service-img-container .info-card-grp2 .info-msg{
+    .service-img-container .info-card-grp2 .info-msg {
         left: 0;
     }
+
     .service-img-container .info-card-grp1 .info-para,
-    .service-img-container .info-card-grp2 .info-para{
+    .service-img-container .info-card-grp2 .info-para {
         width: 230px;
     }
-    .service-img-container .info-btn{
+
+    .service-img-container .info-btn {
         top: 14rem;
         left: 4rem;
     }
-    .cap-section .cap-stats .cap-info{
+
+    .cap-section .cap-stats .cap-info {
         left: 5rem;
-    }   
-    .cap-section .cap-stats .cap-bar{
+    }
+
+    .cap-section .cap-stats .cap-bar {
         left: 16%;
     }
-    .project>h1{
+
+    .project>h1 {
         left: 18rem;
     }
-    .project .project-info h6{
+
+    .project .project-info h6 {
         left: 29rem;
     }
-    .project .project-info h1{
+
+    .project .project-info h1 {
         left: 16rem;
     }
-    .project .project-img{
+
+    .project .project-img {
         width: 70%;
         height: 55%;
     }
-    .project{
+
+    .project {
         height: 850px;
     }
-    .img-grid .item-grp .img-info1{
+
+    .img-grid .item-grp .img-info1 {
         top: 22%;
     }
-    .project-img .img-grid .img-para{
+
+    .project-img .img-grid .img-para {
         width: 180px;
     }
-    .testimonial>h1{
+
+    .testimonial>h1 {
         font-size: 115px;
         left: 15rem;
     }
-    
-.testimonial .test-head-msg h1 {
-    left: 21rem;
-    top: 6rem;
-    font-weight: 600;
+
+    .testimonial .test-head-msg h1 {
+        left: 21rem;
+        top: 6rem;
+        font-weight: 600;
     }
+
     .testimonial .test-feedback {
         top: 7rem;
         left: 5.5%;
         height: 30%;
         width: 100%;
     }
-    .testimonial .pagi-icon{
+
+    .testimonial .pagi-icon {
         bottom: 0;
     }
-    .testimonial .pagi-icon .pagi-circle-grp{
+
+    .testimonial .pagi-icon .pagi-circle-grp {
         left: 33rem;
     }
-    .drm-home .drm-home-info{
+
+    .drm-home .drm-home-info {
         top: 5rem;
         left: 11rem;
     }
-    .footer .footer-top{
+
+    .footer .footer-top {
         width: 70%;
         left: 15%;
     }
-    .footer-top .footer-logo .footer-logo-img img{
+
+    .footer-top .footer-logo .footer-logo-img img {
         height: 5rem;
         width: 4rem;
     }
+
     .footer-top .footer-logo .footer-logo-msg {
         width: 100%;
         height: 70px;
         line-height: 17px;
     }
+
     .footer-top .footer-link {
         height: 9rem;
         margin-left: 2rem;
         width: 20rem;
     }
+
     .footer-top h4 {
         font-size: 1rem;
     }
+
     .footer-top .footer-contact {
         height: 9rem;
         padding-left: 3rem;
     }
+
     .footer-top .footer-news {
         height: 9rem;
         margin-left: 2rem;
     }
-    .footer-top .footer-news .news-info .news-btn img{
+
+    .footer-top .footer-news .news-info .news-btn img {
         left: 18%;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        height: 500px;
+    }
+
+    .navbar {
+        left: 2rem;
+        width: 85%;
+    }
+
+    .nav-logo img {
+        height: 4rem;
+        width: 5rem;
+    }
+
+    .nav-list {
+        width: 423px;
+        left: 7%;
+        top: 2.5rem;
+    }
+
+    .nav-list ul li {
+        font-size: 0.75rem;
+    }
+
+    .nav-list ul li::after {
+        padding-left: 12px;
+    }
+
+    .navbar-btn {
+        top: 33px;
+    }
+
+    .nav-btn {
+        width: 170px;
+        height: 30px;
+        font-size: .8rem;
+    }
+
+    .center-msg {
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+
+    .about>h1 {
+        left: 10rem;
+        font-size: 85px;
+        top: 2rem;
+    }
+
+    .about-img .about-img1 img,
+    .about-img .about-img2 img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .about-img .about-img1 p .span-first {
+        top: 15px;
+    }
+
+    .about-img {
+        top: -6rem;
+    }
+
+    .about-container .about-msg {
+        height: 300px;
+        width: 400px;
+        position: absolute;
+        left: -13rem;
+    }
+
+    .about-container .about-msg h6 {
+        padding-left: 0;
+        font-weight: 700;
+        font-size: 9px;
+    }
+
+    .about-container .about-msg .abt-main-msg {
+        margin-top: 9px;
+        padding-left: 0;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .about-container .about-msg .abt-para-msg {
+        font-size: 12px;
+        line-height: 17px;
+        margin-left: 0;
+    }
+
+    .about-msg button {
+        width: 100px;
+        margin-left: 0;
+    }
+
+    .info-container .info-head-msg {
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0px;
+        width: 485px;
+        left: 9rem;
+    }
+
+    .info-container .info-para-msg {
+        left: 7rem;
+    }
+
+    .info-container .info-btn {
+        left: 21rem;
+    }
+
+    .info-box {
+        height: 6rem;
+        top: 35rem;
+        left: 7rem;
+    }
+
+    .info-box h1 {
+        font-size: 30px;
+    }
+
+    .info-box h3 {
+        font-size: 10px;
+    }
+
+    .prod-info {
+        margin-bottom: 2rem;
+    }
+
+    .services>h1 {
+        left: 13rem;
+        font-size: 100px;
+    }
+
+    .services .service-info {
+        top: 6rem;
+    }
+
+    .services .service-info h6 {
+        left: 21rem;
+    }
+
+    .services .service-info h1 {
+        left: 10rem;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+
+    .services {
+        height: 45rem;
+    }
+
+    .services .service-img {
+        height: 50%;
+    }
+
+    .service-img-container .info-card-grp1 .info-msg,
+    .service-img-container .info-card-grp2 .info-msg {
+        width: 8rem;
+        font-size: 15px;
+        line-height: 0px;
+        top: 60px;
+    }
+
+    .service-img-container .info-card-grp1 .info-para,
+    .service-img-container .info-card-grp2 .info-para {
+        width: 165px;
+        left: 16px;
+        top: 82px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .service-img-container .info-btn {
+        top: 8.8rem;
+        left: 3.5rem;
+        height: 25px;
+        width: 90px;
+        font-size: 11px;
+
+    }
+
+    .cap-section {
+        margin-top: 0;
+    }
+
+    .cap-section .cap-stats .cap-info {
+        left: 2rem;
+    }
+    .cap-section .cap-stats .cap-info h1{
+        width: 18rem;
+        font-size: 20px;
+    }
+    .cap-section .cap-stats .cap-info p{
+        width: 18rem;
+        line-height: 18px;
+    }
+    .cap-section .cap-stats .cap-bar{
+        width: 20rem;
+        left: 10%;
+    }
+    .cap-bar .cap-bar-grp h5 {
+        width: 24px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-right: 15rem;
+        font-weight: 100;
+    }
+}
+
+/* @media (min-width: 481px) and (max-width: 767px) */
+/* @media (max-width: 480px) */
