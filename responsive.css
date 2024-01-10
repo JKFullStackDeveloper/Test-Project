@@ -646,9 +646,11 @@
     }
 }
 
+/* .................................................... */
+
 @media (max-width: 480px) {
     .header {
-        height: 450px;
+        height: 370px;
     }
 
     .navbar {
@@ -718,13 +720,36 @@
         top: 1rem;
     }
     .prev-btn{
-    margin-top: 17rem;
+    margin-top: 10rem;
     margin-left: 7rem;
     }
     .next-btn{
-    margin-top: 134px;
+    margin-top: 158px;
     margin-left: -9rem;
     }
+    .next-btn button{
+        position: relative;
+        left: -4rem;
+    }
 
+    .center-msg{
+        height: 100%;
+        margin-left: -9rem;
+        margin-top: -12rem;
+        width: 55%;
+    }
+    .center-msg h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .center-msg h6{
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 1px;
+    }   
+    .center-msg p{
+        font-size: 12px;
+        line-height: 20px;
+    }
 }
 
