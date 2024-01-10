@@ -863,31 +863,38 @@
         left: 125px;
         top: 17rem;
     }
-    .info-box{
+
+    .info-box {
         left: 2rem;
         top: 24rem;
         height: 5rem;
         width: 83%;
     }
-    .info-box h1{
+
+    .info-box h1 {
         font-size: 15px;
     }
-    .info-box h3{
+
+    .info-box h3 {
         font-size: 12px;
     }
-    .services>h1{
+
+    .services>h1 {
         font-size: 70px;
         top: .5rem;
         left: 3rem;
     }
-    .services .service-info{
+
+    .services .service-info {
         top: 2rem;
         height: 10%;
     }
-    .services .service-info h6{
+
+    .services .service-info h6 {
         left: 8rem;
     }
-    .services .service-info h1{
+
+    .services .service-info h1 {
         left: 3rem;
         width: 18rem;
         top: 24px;
@@ -895,89 +902,219 @@
         line-height: 25px;
         letter-spacing: 0px;
     }
-    .services .service-img{
+
+    .services .service-img {
         display: block;
         top: 9rem;
     }
-    .service-img .service-img-container{
+
+    .service-img .service-img-container {
         width: 100%;
     }
+
     .service-img-container .info-card-grp1 .info-msg,
-    .service-img-container .info-card-grp2 .info-msg{
+    .service-img-container .info-card-grp2 .info-msg {
         left: -2rem;
         top: 36px;
         width: 15rem;
         font-size: 15px;
     }
+
     .service-img-container .info-card-grp1 .info-para,
-    .service-img-container .info-card-grp2 .info-para{
+    .service-img-container .info-card-grp2 .info-para {
         width: 175px;
         left: 3px;
         top: 75px;
         font-size: 10px;
         line-height: 17px;
     }
-    .service-img-container .info-btn{
+
+    .service-img-container .info-btn {
         top: 9rem;
         left: 1.5rem;
     }
-    .service-img .service-img-container{
+
+    .service-img .service-img-container {
         height: 30%;
     }
-    .cap-section{
+
+    .cap-section {
         margin-bottom: 3rem;
     }
-    .cap-section .cap-stats .cap-info{
+
+    .cap-section .cap-stats .cap-info {
         left: 2rem;
         top: 3rem;
     }
-    .cap-section .cap-stats .cap-info h1{
+
+    .cap-section .cap-stats .cap-info h1 {
         width: 20rem;
         top: 2rem;
         font-size: 20px;
     }
-    .cap-section .cap-stats .cap-info p{
+
+    .cap-section .cap-stats .cap-info p {
         width: 20rem;
         top: 70px;
         line-height: 20px;
     }
-    .cap-section .cap-stats .cap-bar{
+
+    .cap-section .cap-stats .cap-bar {
         left: 17%;
     }
-    .cap-bar .cap-bar-grp h5{
+
+    .cap-bar .cap-bar-grp h5 {
         font-size: 10px;
         margin-right: 12rem;
     }
-    .cap-bar .cap-percent{
+
+    .cap-bar .cap-percent {
         width: 77%;
     }
-    .cap-bar .cap-percent .cap-inner-layer2{
+
+    .cap-bar .cap-percent .cap-inner-layer2 {
         width: 85%;
     }
-    .project{
-        height: 900px;
+
+    .project {
+        height: 700px;
     }
-    .project>h1{
+
+    .project>h1 {
         font-size: 70px;
         left: 5rem;
     }
-    .project .project-info h6{
+
+    .project .project-info h6 {
         left: 9rem;
         top: -2rem;
     }
-    .project .project-info h1{
+
+    .project .project-info h1 {
         left: 3rem;
         top: 17px;
         font-size: 20px;
         line-height: 0px;
         letter-spacing: 0px;
     }
-    .project .project-img{
-        left: 8%;
-        width: 85%;
+
+    .project .project-img {
+        left: 6%;
+        width: 91%;
+        top: 10%;
     }
-    .img-grid .item-grp .img-info1{
-        top: 3%;
-        margin-left: 10px;
+
+    .img-grid .item-grp .img-info1 {
+        top: 8%;
+        margin-left: 8px;
+    }
+
+    .project-img .img-grid .img-head {
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+
+    .project-img .img-grid .img-para {
+        display: none;
+    }
+
+    .project-img .img-grid .img-btn {
+        width: 5rem;
+        margin-top: 29px;
+    }
+
+    .img-grid .item-grp .img-info2 {
+        bottom: -43px;
+        margin-left: 0.5rem;
+        width: 40%;
+    }
+
+    .history {
+        top: -20rem;
+    }
+
+    .history .history-img {
+        top: -160px;
+        left: 58px;
+        width: 77%;
+    }
+
+    .history .history-info {
+        width: 62%;
+        right: 77px;
+        top: 14rem;
+    }
+
+    .history .history-info h1 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0px;
+    }
+
+    .history .history-info p {
+        font-size: 12px;
+        line-height: 11px;
+    }
+
+    .testimonial {
+        top: -20rem;
+    }
+
+    .testimonial>h1 {
+        font-size: 50px;
+        left: 40px;
+    }
+
+    .testimonial .test-icon h1 {
+        top: -1rem;
+
+    }
+
+    .testimonial .test-head-msg h1 {
+        left: 55px;
+        width: 17rem;
+        top: 36px;
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+
+    .testimonial .test-feedback {
+        display: block;
+        margin-right: 0px;
+        height: 60%;
+    }
+
+    .testimonial .test-feedback .feedback-grp {
+        width: 100%;
+        height: 69%;
+        display: block;
+    }
+
+    .testimonial .pagi-icon {
+        top: 34rem;
+    }
+    .drm-home{
+        background-size: cover;
+        background-position:right;
+    }
+    .drm-home .drm-home-info{
+        top: 3rem;
+        left: 3rem;
+        width: 330px;
+    }
+    .testimonial .pagi-icon .pagi-circle-grp {
+        left: 150px;
+        margin-left: 12px;
+        top: 20rem;
+    }
+    .drm-home .drm-home-info .drm-home-head{
+        width: 330px;
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+    .drm-home .drm-home-info .drm-home-para{
+        font-size: 12px;
+        width: 330px;
     }
 }
