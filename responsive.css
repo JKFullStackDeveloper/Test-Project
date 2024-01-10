@@ -1094,27 +1094,103 @@
     .testimonial .pagi-icon {
         top: 34rem;
     }
-    .drm-home{
+
+    .drm-home {
         background-size: cover;
-        background-position:right;
+        background-position: right;
     }
-    .drm-home .drm-home-info{
+
+    .drm-home .drm-home-info {
         top: 3rem;
         left: 3rem;
         width: 330px;
     }
+
     .testimonial .pagi-icon .pagi-circle-grp {
         left: 150px;
         margin-left: 12px;
         top: 20rem;
     }
-    .drm-home .drm-home-info .drm-home-head{
+
+    .drm-home .drm-home-info .drm-home-head {
         width: 330px;
         font-size: 25px;
         letter-spacing: 0px;
     }
-    .drm-home .drm-home-info .drm-home-para{
+
+    .drm-home .drm-home-info .drm-home-para {
         font-size: 12px;
         width: 330px;
     }
+
+    .footer {
+        height: 700px;
+    }
+
+    .footer .footer-top {
+        width: 100%;
+        left: 0;
+        top: 5%;
+        flex-direction: column;
+    }
+
+    .footer-top .footer-logo {
+        width: 85%;
+        display: flex;
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-top .footer-logo .footer-logo-img img {
+        height: 4rem;
+        width: 4rem;
+        margin-right: 25px;
+    }
+
+    .footer-top .footer-link {
+        width: 89%;
+        height: 14rem;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 1px solid white;
+    }
+    .footer-top h4{
+        font-size: 15px;
+        margin-bottom: 0;
+
+    }
+    .footer-top .footer-contact {
+        width: 90%;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        left: 52px;
+        top: 15px;
+    }
+    .footer-top h4{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .footer-top .footer-contact .contact-list{
+    padding-left: 0px;
+    }
+    .footer-top .footer-news {
+        width: 90%;
+        border-top: 1px solid white;
+        margin-top: 2rem;
+        position: relative;
+        right: 36px;
+    }
+    .footer-top .footer-news .news-head{
+    padding-top: 15px;
+    padding-left: 115px;
+}
+.footer-top .footer-news .news-info .news-input input{
+    height: 33px;
+}
 }
