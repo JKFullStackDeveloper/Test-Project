@@ -649,6 +649,10 @@
 /* .................................................... */
 
 @media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .header {
         height: 370px;
     }
@@ -682,31 +686,37 @@
         color: white;
         font-size: 1.5rem;
     }
-    .header .navbar-sm .nav-list-sm{
+
+    .header .navbar-sm .nav-list-sm {
         display: none;
         border: 1px solid rgb(182, 162, 162);
-    padding: 5px;
-    box-shadow: 5px 0px 10px -2px white;
-    border-left: 0px;
+        padding: 5px;
+        box-shadow: 5px 0px 10px -2px white;
+        border-left: 0px;
     }
-    .navbar-sm .nav-list-sm{
+
+    .navbar-sm .nav-list-sm {
         position: absolute;
         top: 56px;
         width: 120px;
-    height: 201px;
+        height: 201px;
     }
-    .navbar-sm .nav-list-sm ul li{
+
+    .navbar-sm .nav-list-sm ul li {
         list-style: none;
     }
-    .navbar-sm .nav-list-sm ul li a{
+
+    .navbar-sm .nav-list-sm ul li a {
         text-decoration: none;
         color: #FFFFFF;
     }
-    .navbar-sm .nav-list-sm .navbar-list-btn{
-        height: 36%;
-    width: 160%;
-    margin: -6px;
+
+    .navbar-sm .nav-list-sm .navbar-list-btn {
+        height: 56px;
+        width: 229px;
+        margin: -11px;
     }
+
     .navbar-sm .nav-list-sm .navbar-list-btn .nav-btn {
         background: #EEC244;
         border: none;
@@ -719,37 +729,150 @@
         position: relative;
         top: 1rem;
     }
-    .prev-btn{
-    margin-top: 10rem;
-    margin-left: 7rem;
+
+    .prev-btn {
+        margin-top: 10rem;
+        margin-left: 7rem;
     }
-    .next-btn{
-    margin-top: 158px;
-    margin-left: -9rem;
+
+    .next-btn {
+        margin-top: 158px;
+        margin-left: -9rem;
     }
-    .next-btn button{
+
+    .next-btn button {
         position: relative;
         left: -4rem;
     }
 
-    .center-msg{
+    .center-msg {
         height: 100%;
         margin-left: -9rem;
         margin-top: -12rem;
         width: 55%;
     }
-    .center-msg h1{
+
+    .center-msg h1 {
         font-size: 20px;
         line-height: 20px;
     }
-    .center-msg h6{
+
+    .center-msg h6 {
         font-weight: 600;
         line-height: 14px;
         letter-spacing: 1px;
-    }   
-    .center-msg p{
+    }
+
+    .center-msg p {
         font-size: 12px;
         line-height: 20px;
     }
-}
 
+    .about>h1 {
+        left: 3rem;
+        font-size: 100px;
+        top: 2rem;
+    }
+
+    .about .about-container {
+        height: 100%;
+        width: 100%;
+        left: 0rem;
+        top: 10rem;
+    }
+
+    .about-container .about-msg {
+        left: 5rem;
+        top: -6rem;
+        padding-left: 0;
+    }
+
+    .about-container .about-msg .abt-main-msg {
+        margin-top: 7px;
+        padding-left: 0;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+
+    .about-container .about-msg .abt-para-msg {
+        font-size: 11px;
+        line-height: 15px;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .about-msg button {
+        width: 98px;
+        margin-top: 0;
+        font-size: 11px;
+        padding: 8px;
+        margin-left: 0;
+    }
+
+    .about-img {
+        top: 7rem;
+        right: 85px;
+    }
+
+    .about-img .about-img1 img,
+    .about-img .about-img2 img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-img .about-img1 p {
+        position: relative;
+        bottom: 24px;
+        right: 0px;
+    }
+
+    .about-img .about-img1 p .span-first {
+        font-size: 20px;
+        bottom: -20px;
+    }
+
+    .about-img .about-img1 p .span2 {
+        font-size: 12px;
+    }
+
+    .prod-info {
+        height: 400px;
+    }
+
+    .info-container .info-head-msg {
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0px;
+        width: 353px;
+        top: 115px;
+        left: 4rem;
+    }
+
+    .info-container .info-para-msg {
+        width: 353px;
+        left: 4rem;
+        top: 11rem;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .info-container .info-btn {
+        width: 7rem;
+        height: 2rem;
+        left: 180px;
+        top: 16rem;
+    }
+    .info-box{
+        left: 3rem;
+        top: 24rem;
+        height: 5rem;
+        width: 83%;
+    }
+    .info-box h1{
+        font-size: 15px;
+    }
+    .info-box h3{
+        font-size: 12px;
+    }
+}
