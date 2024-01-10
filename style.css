@@ -472,7 +472,6 @@ body {
     height: 58rem;
     width: 100%;
     position: relative;
-    overflow-x: hidden;
 }
 
 .services>h1 {
@@ -507,7 +506,6 @@ body {
     left: 34.5rem;
     width: 31rem;
     top: 2.5rem;
-    font-style: normal;
     font-weight: 600;
     font-size: 38px;
     line-height: 41px;
