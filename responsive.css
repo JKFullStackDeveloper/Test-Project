@@ -457,29 +457,168 @@
 
     .cap-section {
         margin-top: 0;
+        margin-bottom: 3rem;
     }
 
     .cap-section .cap-stats .cap-info {
         left: 2rem;
     }
-    .cap-section .cap-stats .cap-info h1{
+
+    .cap-section .cap-stats .cap-info h1 {
         width: 18rem;
         font-size: 20px;
     }
-    .cap-section .cap-stats .cap-info p{
+
+    .cap-section .cap-stats .cap-info p {
         width: 18rem;
         line-height: 18px;
     }
-    .cap-section .cap-stats .cap-bar{
+
+    .cap-section .cap-stats .cap-bar {
         width: 20rem;
         left: 10%;
     }
+
     .cap-bar .cap-bar-grp h5 {
         width: 24px;
         font-size: 10px;
         letter-spacing: 1px;
         margin-right: 15rem;
         font-weight: 100;
+    }
+
+    .project {
+        height: 800px;
+    }
+
+    .project>h1 {
+        left: 15rem;
+        font-size: 100px;
+        top: 0;
+    }
+
+    .project .project-info {
+        top: 3rem;
+    }
+
+    .project .project-info h6 {
+        left: 22rem;
+    }
+
+    .project .project-info h1 {
+        left: 11rem;
+        top: 1.5rem;
+    }
+
+    .project .project-img {
+        left: 15%;
+        width: 77%;
+        top: 18%;
+    }
+
+    .project .project-img .img-grid {
+        gap: 5px;
+    }
+
+    .img-grid .item-grp .img-info1 {
+        top: 15%;
+        margin-left: 1.5rem;
+    }
+
+    .project-img .img-grid .img-para {
+        width: 170px;
+    }
+    .img-grid .item-grp .img-info2{
+        margin-left: 1.5rem;
+        bottom: 2rem;
+        width: 46%;
+    }
+    .project-img .img-grid .img-head{
+        font-size: 14px;
+    }
+    .history{
+        height: 18rem;
+    }
+    .history .history-img {
+        width: 55%;
+    }
+    .history .history-info{
+        top: 2rem;
+        right: 3.3rem;
+    }
+    .history .history-info h1 {
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: 0px;
+    }
+    .history .history-info p{
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 17px;
+        padding-top: 13px;
+    }
+    .testimonial>h1{
+        font-size: 100px;
+        left: 9rem;
+    }
+    .testimonial .test-head-msg h1{
+        left: 14rem;
+        top: 5rem;
+    }
+    .testimonial .test-feedback{
+    top: 4rem;
+    left: 1.5%;
+    height: 70%;
+    width: 90%;
+    }
+    .testimonial .test-feedback .feedback-grp{
+        width: 25%;
+    }
+    .testimonial .test-feedback .feedback-grp p{
+        font-size: 12px;
+    }
+    .testimonial .pagi-icon .pagi-circle-grp{
+        left: 22rem;
+    }
+    .drm-home{
+        height: 214px;
+    }
+    .drm-home .drm-home-info{
+        top: 3.5rem;
+        left: 11rem;
+    }
+    .drm-home .drm-home-info .drm-home-head{
+        font-size: 18px;
+    letter-spacing: 0px;
+    }
+    .drm-home .drm-home-info .drm-home-para{
+        font-size: 12px;
+        margin-bottom: 1rem;
+    }
+    .footer-top .footer-logo .footer-logo-img img{
+        height: 50px;
+        width: 50px;
+    }
+    .footer .footer-top{
+        width: 90%;
+        left: 7%;
+        height: 75%;
+    }
+    .footer-top h4{
+        font-size: 12px;
+    }
+    .footer-top .footer-link .link-list ul li a{
+        font-size: 11px;
+    }
+    .footer-top .footer-contact{
+        width: 10rem;
+        padding-left: 1rem;
+    }
+    .footer-top .footer-logo {
+        height: 12rem;
+    }
+    .footer-top .footer-news{
+        margin-left: 3rem;
     }
 }
 
