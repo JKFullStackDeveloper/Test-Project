@@ -1,15 +1,15 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
-    
+
 }
 
-html{
+html {
     overflow-x: hidden;
 }
+
 body {
     width: 100%;
     overflow-x: hidden;
